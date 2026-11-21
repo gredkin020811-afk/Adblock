@@ -1,0 +1,17 @@
+# Browser generated metadata
+_metadata/
+
+# Build outputs & packaged archives
+dist/
+*.zip
+*.xpi
+*.crx
+*.pem
+
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+.idea/

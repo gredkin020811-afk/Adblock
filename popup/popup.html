@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UltiBlock Pro 5-in-1</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="brand">
+        <div class="shield-icon" id="shieldIcon">🛡️</div>
+        <div>
+          <h1>UltiBlock <span class="badge-pro">5-IN-1 PRO</span></h1>
+          <p class="subtitle" id="statusText" data-i18n="statusActive">AdBlock + YT Premium + Tweaks + Dark + DL</p>
+        </div>
+      </div>
+      <div class="header-controls">
+        <select id="langSelect" class="lang-select" data-i18n-title="langTitle" title="Interface language">
+          <option value="auto" data-i18n="langAuto">Auto</option>
+          <option value="en">EN</option>
+          <option value="ru">RU</option>
+          <option value="es">ES</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="pt_BR">PT</option>
+          <option value="zh_CN">中文</option>
+          <option value="uk">UK</option>
+        </select>
+        <label class="switch" data-i18n-title="globalToggleTitle" title="Global enable / disable">
+          <input type="checkbox" id="globalToggle" checked />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="tabs-nav">
+      <button class="tab-btn active" data-tab="tab-adblock" data-i18n="tabAdblock">🛡️ AdBlock &amp; DL</button>
+      <button class="tab-btn" data-tab="tab-dark" data-i18n="tabDark">🌙 Dark Reader</button>
+      <button class="tab-btn" data-tab="tab-yt" data-i18n="tabYt">▶️ YT + Tweaks</button>
+    </nav>
+
+    <!-- ==================== TAB 1: ADBLOCK & DOWNLOADER ==================== -->
+    <div class="tab-panel active" id="tab-adblock">
+      <!-- Current Site Card -->
+      <section class="card site-card">
+        <div class="site-row">
+          <div class="site-info">
+            <span class="site-label" data-i18n="currentSite">Current site</span>
+            <strong class="site-domain" id="currentDomain">—</strong>
+          </div>
+          <div class="site-toggle-wrap">
+            <span class="site-toggle-label" data-i18n="adblockHere">AdBlock here</span>
+            <label class="switch switch-sm">
+              <input type="checkbox" id="siteToggle" checked />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="tab-counter-row">
+          <span data-i18n="blockedOnTab">Blocked on this tab:</span>
+          <span class="tab-counter" id="tabBlockedCount">0</span>
+        </div>
+      </section>
+
+      <!-- Statistics Grid -->
+      <section class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-value" id="statNetwork">0</span>
+          <span class="stat-name" data-i18n="statNetwork">Network &amp; trackers</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value stat-yt" id="statYoutube">0</span>
+          <span class="stat-name" data-i18n="statYoutube">YouTube + Sponsors</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value" id="statDom">0</span>
+          <span class="stat-name" data-i18n="statDom">DOM banners</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-value stat-pop" id="statPopup">0</span>
+          <span class="stat-name" data-i18n="statPopup">Popups / Redirects</span>
+        </div>
+      </section>
+
+      <!-- Universal Media Downloader + Background Download Manager -->
+      <section class="card" style="padding: 10px 12px; display: flex; flex-direction: column; gap: 8px; border-color: rgba(14, 165, 233, 0.35);">
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+          <span style="font-size: 12px; font-weight: 700; color: #38bdf8;" data-i18n="dlManagerTitle">📥 Download Manager (Background)</span>
+          <button type="button" class="btn-link" id="clearDownloadsBtn" style="display: none; font-size: 11px;" data-i18n="clearBtn">Clear</button>
+        </div>
+
+        <div id="downloadsListContainer" style="display: flex; flex-direction: column; gap: 6px;">
+          <div style="font-size: 11.5px; color: #64748b; text-align: center; padding: 4px 0;" data-i18n="dlEmpty">
+            No active downloads (continues in background even if popup closes)
+          </div>
+        </div>
+
+        <div class="dark-site-mode-row" style="padding-top: 6px; border-top: 1px solid #1e293b;">
+          <span style="font-size: 11.5px;" data-i18n="dlSpeedLabel" data-i18n-title="dlSpeedTitle" title="Limits download speed so Discord and browser stay smooth">⚡ Speed limit (Anti-lag):</span>
+          <div class="segmented-control" id="dlSpeedLimitGroup">
+            <button type="button" data-speed="1.5" class="seg-btn">1.5</button>
+            <button type="button" data-speed="2.5" class="seg-btn active">2.5</button>
+            <button type="button" data-speed="5" class="seg-btn">5</button>
+            <button type="button" data-speed="0" class="seg-btn" data-i18n="dlSpeedMax">Max</button>
+          </div>
+        </div>
+
+        <label class="yt-option" style="padding-top: 4px; border-top: 1px solid #1e293b;">
+          <span data-i18n="dlBtnEverywhere">📥 Show "Download" button everywhere (Photos, YouTube &amp; Music)</span>
+          <input type="checkbox" id="chkHoverDownloader" checked />
+        </label>
+        <label class="yt-option" style="padding-top: 4px; border-top: 1px solid #1e293b;">
+          <span data-i18n="dlBtnOnSite">📥 Show "Download" button on this site</span>
+          <input type="checkbox" id="chkSiteHoverDownloader" checked />
+        </label>
+      </section>
+
+      <!-- Disabled / Whitelisted Sites List -->
+      <section class="card domain-blocker" id="disabledSitesSection" style="display: none;">
+        <div class="section-title" data-i18n="whitelistTitle">Sites where AdBlock is disabled (Whitelist)</div>
+        <div class="domain-tags" id="disabledDomainsList"></div>
+      </section>
+
+      <!-- Interactive Element Picker -->
+      <section class="actions-section">
+        <button class="btn btn-primary" id="pickerBtn" data-i18n="pickerBtn">
+          🎯 Pick &amp; remove element on page
+        </button>
+        <div class="custom-selectors-bar" id="customSelectorsBar" style="display: none;">
+          <span id="customSelectorsCount">Hidden manually: 0</span>
+          <button class="btn-link" id="resetSiteSelectorsBtn" data-i18n="resetBtn">Reset</button>
+        </div>
+      </section>
+
+      <!-- Custom Domain Blocker -->
+      <section class="card domain-blocker">
+        <div class="section-title" data-i18n="blacklistTitle">Domain Blacklist (DNR)</div>
+        <div class="input-group">
+          <input
+            type="text"
+            id="customDomainInput"
+            data-i18n-placeholder="blacklistPlaceholder"
+            placeholder="e.g. annoying-ads.com"
+            autocomplete="off"
+          />
+          <button class="btn btn-sm" id="addDomainBtn">+</button>
+        </div>
+        <div class="domain-tags" id="customDomainsList"></div>
+      </section>
+
+      <!-- Cloud Filter Sync -->
+      <footer class="footer">
+        <button class="btn btn-secondary" id="cloudSyncBtn" data-i18n="cloudSyncBtn">
+          ☁️ Update cloud filter list (+3500 ad servers)
+        </button>
+        <div class="cloud-meta" id="cloudMeta" data-i18n="madeBy">Made by Bulki228 • v1.0</div>
+      </footer>
+    </div>
+
+    <!-- ==================== TAB 2: SMART DARK READER ==================== -->
+    <div class="tab-panel" id="tab-dark">
+      <section class="card dark-header-card">
+        <div class="site-row">
+          <div>
+            <div class="dark-main-title" data-i18n="darkTitle">🌙 Smart Dark Theme</div>
+            <div class="dark-sub-status" id="darkSiteStatusText" data-i18n="darkStatusActive">Active on site (Hotkey: Alt + D)</div>
+          </div>
+          <label class="switch">
+            <input type="checkbox" id="darkGlobalToggle" checked />
+            <span class="slider slider-blue"></span>
+          </label>
+        </div>
+
+        <div class="dark-site-mode-row">
+          <span data-i18n="darkSiteModeLabel">Mode on this site:</span>
+          <div class="segmented-control" id="darkSiteModeGroup">
+            <button type="button" data-site-mode="auto" class="seg-btn active" data-i18n="modeAuto">Auto</button>
+            <button type="button" data-site-mode="force" class="seg-btn" data-i18n="modeOn">On</button>
+            <button type="button" data-site-mode="off" class="seg-btn" data-i18n="modeOff">Off</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Engine & Palette Selection -->
+      <section class="card dark-options-card">
+        <div class="section-title" data-i18n="darkEngineTitle">Rendering engine</div>
+        <div class="engine-selector">
+          <button type="button" class="engine-btn active" data-engine="smart">
+            <strong>✨ Smart DOM</strong>
+            <span data-i18n="darkEngineSmartSub">Preserves photos &amp; colors</span>
+          </button>
+          <button type="button" class="engine-btn" data-engine="gpu">
+            <strong>⚡ GPU Filter</strong>
+            <span data-i18n="darkEngineGpuSub">Ultra-fast 120 FPS</span>
+          </button>
+        </div>
+
+        <div class="section-title" style="margin-top: 10px;" data-i18n="darkPaletteTitle">Color palette</div>
+        <div class="palette-grid" id="paletteGrid">
+          <button type="button" class="palette-btn active" data-theme="midnight">
+            <span class="swatch" style="background: #0d1117; border-color: #58a6ff;"></span>
+            Midnight
+          </button>
+          <button type="button" class="palette-btn" data-theme="carbon">
+            <span class="swatch" style="background: #141417; border-color: #a1a1aa;"></span>
+            Carbon
+          </button>
+          <button type="button" class="palette-btn" data-theme="oled">
+            <span class="swatch" style="background: #000000; border-color: #38bdf8;"></span>
+            True OLED
+          </button>
+          <button type="button" class="palette-btn" data-theme="warm">
+            <span class="swatch" style="background: #191614; border-color: #f59e0b;"></span>
+            Warm
+          </button>
+        </div>
+      </section>
+
+      <!-- Sliders -->
+      <section class="card dark-sliders-card">
+        <div class="slider-row">
+          <div class="slider-label">
+            <span data-i18n="darkBrightness">☀️ Brightness</span>
+            <strong id="valBrightness">100%</strong>
+          </div>
+          <input type="range" id="rngBrightness" min="70" max="130" step="5" value="100" />
+        </div>
+
+        <div class="slider-row">
+          <div class="slider-label">
+            <span data-i18n="darkContrast">◐ Contrast</span>
+            <strong id="valContrast">100%</strong>
+          </div>
+          <input type="range" id="rngContrast" min="70" max="130" step="5" value="100" />
+        </div>
+
+        <div class="slider-row">
+          <div class="slider-label">
+            <span data-i18n="darkWarmth">🔥 Warm filter (Eye care)</span>
+            <strong id="valWarmth">0%</strong>
+          </div>
+          <input type="range" id="rngWarmth" min="0" max="60" step="5" value="0" />
+        </div>
+
+        <label class="yt-option" style="margin-top: 6px; padding-top: 6px; border-top: 1px solid #1e293b;">
+          <span data-i18n="darkAutoSkipNative">🧠 Skip sites with native dark theme</span>
+          <input type="checkbox" id="chkAutoSkipNativeDark" checked />
+        </label>
+      </section>
+    </div>
+
+    <!-- ==================== TAB 3: YOUTUBE PREMIUM + ENHANCER + YT TWEAKS ==================== -->
+    <div class="tab-panel" id="tab-yt">
+      <section class="card yt-premium-card">
+        <div class="yt-card-header">
+          <span class="yt-title" data-i18n="ytCardTitle">▶️ YouTube &amp; Music Premium + Downloader</span>
+          <span class="yt-tag">PRO</span>
+        </div>
+        <div class="yt-options-list">
+          <label class="yt-option">
+            <span data-i18n="ytOptNonStop">🎧 Background play + No "Are you still watching?" pauses</span>
+            <input type="checkbox" data-yt-key="nonStopBackground" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptSponsorBlock">⏭ Auto-skip sponsors &amp; intros (SponsorBlock)</span>
+            <input type="checkbox" data-yt-key="sponsorBlock" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptAutoMaxQuality">💎 Auto max video quality (4K / 1080p60)</span>
+            <input type="checkbox" data-yt-key="autoMaxQuality" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptReturnDislikes">👎 Return real dislike counts</span>
+            <input type="checkbox" data-yt-key="returnDislikes" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptShowDownload">📥 Show "Download" button (YouTube, Music &amp; Photos)</span>
+            <input type="checkbox" data-yt-key="showDownloadButtons" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptPlayerEnhancements">🎛️ Toolbar: Filters, Cinema, 4x, HQ 200%, Screenshot</span>
+            <input type="checkbox" data-yt-key="playerEnhancements" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptMusicPremium">🎵 YT Music: "Audio-only" mode + HQ Studio Bass</span>
+            <input type="checkbox" data-yt-key="ytMusicPremium" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptPremiumLogo">✨ PREMIUM badge &amp; hide promo popups</span>
+            <input type="checkbox" data-yt-key="premiumLogo" checked />
+          </label>
+        </div>
+      </section>
+
+      <!-- Enhancer for YouTube & YT Tweaks Section -->
+      <section class="card yt-premium-card" style="border-color: rgba(59, 130, 246, 0.35);">
+        <div class="yt-card-header">
+          <span class="yt-title" data-i18n="ytTweaksTitle">🛠 Enhancer for YouTube &amp; YT Tweaks</span>
+          <span class="yt-tag" style="color: #60a5fa; border-color: rgba(59,130,246,0.4); background: rgba(59,130,246,0.15);">TWEAKS</span>
+        </div>
+        <div class="yt-options-list">
+          <label class="yt-option">
+            <span data-i18n="ytOptMiniPlayer">📌 Floating mini-player when scrolling comments</span>
+            <input type="checkbox" data-yt-key="miniPlayerOnScroll" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptWheelVolume">🖱️ Mouse wheel volume (right side of player)</span>
+            <input type="checkbox" data-yt-key="wheelVolumeControl" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptHideEndscreens">🚫 Hide end-screen cards</span>
+            <input type="checkbox" data-yt-key="hideEndscreens" checked />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptHideShorts">🚫 Hide YouTube Shorts completely</span>
+            <input type="checkbox" data-yt-key="hideShorts" />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptSquareCorners">🔲 Square player &amp; thumbnail corners</span>
+            <input type="checkbox" data-yt-key="squareCorners" />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptHideSidebar">🙈 Hide right recommendations sidebar</span>
+            <input type="checkbox" data-yt-key="hideSidebar" />
+          </label>
+          <label class="yt-option">
+            <span data-i18n="ytOptHideComments">💬 Hide comments section</span>
+            <input type="checkbox" data-yt-key="hideComments" />
+          </label>
+
+          <div class="dark-site-mode-row" style="margin-top: 4px; padding-top: 6px;">
+            <span data-i18n="ytGridColumnsLabel">Videos per row on Home:</span>
+            <div class="segmented-control" id="ytGridColumnsGroup">
+              <button type="button" data-cols="0" class="seg-btn active" data-i18n="modeAuto">Auto</button>
+              <button type="button" data-cols="4" class="seg-btn">4</button>
+              <button type="button" data-cols="5" class="seg-btn">5</button>
+              <button type="button" data-cols="6" class="seg-btn">6</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

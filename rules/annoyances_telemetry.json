@@ -1,0 +1,166 @@
+[
+  {
+    "id": 1,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "mc.yandex.ru",
+        "mc.yandex.md",
+        "mc.yandex.com",
+        "mc.webvisor.org",
+        "mc.webvisor.com",
+        "google-analytics.com",
+        "ssl.google-analytics.com",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "top-fwz1.mail.ru",
+        "counter.yadro.ru",
+        "kraken.rambler.ru",
+        "tns-counter.ru",
+        "medialand.ru",
+        "hotjar.com",
+        "static.hotjar.com",
+        "vars.hotjar.com",
+        "mixpanel.com",
+        "api.mixpanel.com",
+        "amplitude.com",
+        "api.amplitude.com",
+        "segment.io",
+        "segment.com",
+        "cdn.segment.com",
+        "fullstory.com",
+        "rs.fullstory.com",
+        "crazyegg.com",
+        "script.crazyegg.com",
+        "mouseflow.com",
+        "smartlook.com",
+        "clarity.ms",
+        "www.clarity.ms",
+        "analytics.tiktok.com",
+        "tr.snapchat.com",
+        "ct.pinterest.com",
+        "px.ads.linkedin.com",
+        "bat.bing.com",
+        "newrelic.com",
+        "bam.nr-data.net",
+        "js-agent.newrelic.com",
+        "bugsnag.com",
+        "fpjs.io",
+        "fpnpmcdn.net"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "1xbet.com",
+        "1xstavka.ru",
+        "melbet.ru",
+        "melbet.com",
+        "mostbet.com",
+        "mostbet.ru",
+        "vavada.com",
+        "pin-up.casino",
+        "pin-up.bet",
+        "joycasino.com",
+        "casino-x.com",
+        "azino777.com",
+        "1win.pro",
+        "1win.run",
+        "1win.com",
+        "dragonmoney.com",
+        "catcasino.com",
+        "kentcasino.com",
+        "kometacasino.com",
+        "riobet.com",
+        "pokerdom.com",
+        "olymptrade.com",
+        "binomo.com",
+        "viboom.com",
+        "videoroll.net",
+        "rollad.ru",
+        "franecki.net",
+        "movieads.ru",
+        "adbetnet.com",
+        "adbet.net",
+        "betweendigital.ru",
+        "octoclick.com",
+        "octo-click.com",
+        "clickaine.com",
+        "twinrdsyn.com",
+        "twinrdsrv.com",
+        "tsyndicate.net",
+        "realsrv.com",
+        "go.oclasrv.com",
+        "oclasrv.com",
+        "onclasrv.com",
+        "onclkds.com",
+        "pussl3.com",
+        "dims.ru"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 95,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||connect.facebook.net/*/fbevents.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 95,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||www.googletagmanager.com/gtag/js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 95,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||www.googletagmanager.com/gtm.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 80,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "transform": {
+          "queryTransform": {
+            "removeParams": [
+              "utm_source",
+              "utm_medium",
+              "utm_campaign",
+              "utm_term",
+              "utm_content",
+              "fbclid",
+              "gclid",
+              "yclid",
+              "ymclid",
+              "_openstat",
+              "mc_eid",
+              "rb_clickid",
+              "ysclid"
+            ]
+          }
+        }
+      }
+    },
+    "condition": {
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]

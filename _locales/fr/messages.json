@@ -1,0 +1,248 @@
+{
+  "extName": {
+    "message": "UltiBlock Pro by Bulki228"
+  },
+  "extDescription": {
+    "message": "Suite 5-en-1 : Bloqueur de publicités, YouTube & Music Premium, Enhancer & YT Tweaks, Mode Sombre Intelligent et téléchargeur direct Vidéo/MP3/Photo."
+  },
+  "actionTitle": {
+    "message": "UltiBlock Pro 5-in-1"
+  },
+  "contextMenuDownload": {
+    "message": "📥 UltiBlock : Télécharger photo / vidéo / audio directement"
+  },
+  "globalToggleTitle": {
+    "message": "Activer / désactiver globalement"
+  },
+  "langTitle": {
+    "message": "Langue de l’interface"
+  },
+  "langAuto": {
+    "message": "Auto"
+  },
+  "statusActive": {
+    "message": "AdBlock + YT Premium + Tweaks + Dark + DL"
+  },
+  "statusGlobalOff": {
+    "message": "Protection désactivée globalement"
+  },
+  "statusSitePaused": {
+    "message": "En pause sur {domain}"
+  },
+  "tabAdblock": {
+    "message": "🛡️ AdBlock & DL"
+  },
+  "tabDark": {
+    "message": "🌙 Mode Sombre"
+  },
+  "tabYt": {
+    "message": "▶️ YT + Tweaks"
+  },
+  "currentSite": {
+    "message": "Site actuel"
+  },
+  "systemTab": {
+    "message": "Onglet système"
+  },
+  "adblockHere": {
+    "message": "AdBlock ici"
+  },
+  "blockedOnTab": {
+    "message": "Bloqué sur cet onglet :"
+  },
+  "statNetwork": {
+    "message": "Réseau et traqueurs"
+  },
+  "statYoutube": {
+    "message": "YouTube + Sponsors"
+  },
+  "statDom": {
+    "message": "Bannières DOM"
+  },
+  "statPopup": {
+    "message": "Popups / Redirections"
+  },
+  "dlManagerTitle": {
+    "message": "📥 Gestionnaire de téléchargements"
+  },
+  "clearBtn": {
+    "message": "Effacer"
+  },
+  "dlEmpty": {
+    "message": "Aucun téléchargement actif (continue en arrière-plan)"
+  },
+  "dlCancelTitle": {
+    "message": "Annuler le téléchargement"
+  },
+  "dlSpeedLabel": {
+    "message": "⚡ Limite de vitesse :"
+  },
+  "dlSpeedTitle": {
+    "message": "Limite la vitesse pour éviter les lags sur Discord et le navigateur"
+  },
+  "dlSpeedUnit": {
+    "message": "Mo/s"
+  },
+  "dlSizeUnit": {
+    "message": "Mo"
+  },
+  "dlSpeedMax": {
+    "message": "Max"
+  },
+  "dlBtnEverywhere": {
+    "message": "📥 Bouton « Télécharger » partout (Photos, YouTube & Music)"
+  },
+  "dlBtnOnSite": {
+    "message": "📥 Bouton « Télécharger » sur ce site"
+  },
+  "whitelistTitle": {
+    "message": "Sites sans AdBlock (Liste blanche)"
+  },
+  "whitelistRestoreTitle": {
+    "message": "Réactiver AdBlock sur ce site"
+  },
+  "pickerBtn": {
+    "message": "🎯 Sélectionner et masquer un élément"
+  },
+  "customHiddenCount": {
+    "message": "Masqués manuellement : {count}"
+  },
+  "resetBtn": {
+    "message": "Réinitialiser"
+  },
+  "blacklistTitle": {
+    "message": "Liste noire de domaines (DNR)"
+  },
+  "blacklistPlaceholder": {
+    "message": "ex. : annoying-ads.com"
+  },
+  "blacklistRemoveTitle": {
+    "message": "Retirer de la liste noire"
+  },
+  "cloudSyncBtn": {
+    "message": "☁️ Mettre à jour la base cloud (+3500 serveurs)"
+  },
+  "cloudSyncLoading": {
+    "message": "⏳ Téléchargement et compilation DNR..."
+  },
+  "cloudSyncDone": {
+    "message": "✅ Mis à jour (+{count} domaines)"
+  },
+  "cloudSyncError": {
+    "message": "⚠️ Échec de la mise à jour (réessayez plus tard)"
+  },
+  "cloudMetaUpdated": {
+    "message": "Base cloud : +{count} domaines (màj {date})"
+  },
+  "madeBy": {
+    "message": "Made by Bulki228 • v1.0"
+  },
+  "darkTitle": {
+    "message": "🌙 Thème Sombre Intelligent"
+  },
+  "darkStatusActive": {
+    "message": "Actif sur le site (Raccourci : Alt + D)"
+  },
+  "darkStatusGlobalOff": {
+    "message": "Désactivé globalement (Alt + D)"
+  },
+  "darkStatusSiteOff": {
+    "message": "Désactivé pour {domain}"
+  },
+  "darkStatusSiteForce": {
+    "message": "Forcé sur {domain}"
+  },
+  "darkStatusNativeSkip": {
+    "message": "Thème sombre natif détecté (Ignoré auto)"
+  },
+  "darkSiteModeLabel": {
+    "message": "Mode sur ce site :"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "modeOn": {
+    "message": "Actif"
+  },
+  "modeOff": {
+    "message": "Off"
+  },
+  "darkEngineTitle": {
+    "message": "Moteur de rendu"
+  },
+  "darkEngineSmartSub": {
+    "message": "Préserve les photos et couleurs"
+  },
+  "darkEngineGpuSub": {
+    "message": "Ultra-rapide 120 FPS"
+  },
+  "darkPaletteTitle": {
+    "message": "Palette de couleurs"
+  },
+  "darkBrightness": {
+    "message": "☀️ Luminosité"
+  },
+  "darkContrast": {
+    "message": "◐ Contraste"
+  },
+  "darkWarmth": {
+    "message": "🔥 Filtre chaud (Confort visuel)"
+  },
+  "darkAutoSkipNative": {
+    "message": "🧠 Ignorer les sites déjà en mode sombre"
+  },
+  "ytCardTitle": {
+    "message": "▶️ YouTube & Music Premium + Téléchargeur"
+  },
+  "ytOptNonStop": {
+    "message": "🎧 Lecture en arrière-plan + Sans pause « Toujours là ? »"
+  },
+  "ytOptSponsorBlock": {
+    "message": "⏭ Sauter sponsors et intros (SponsorBlock)"
+  },
+  "ytOptAutoMaxQuality": {
+    "message": "💎 Qualité maximale auto (4K / 1080p60)"
+  },
+  "ytOptReturnDislikes": {
+    "message": "👎 Afficher les vrais « Je n’aime pas »"
+  },
+  "ytOptShowDownload": {
+    "message": "📥 Bouton « Télécharger » (YouTube, Music & Photos)"
+  },
+  "ytOptPlayerEnhancements": {
+    "message": "🎛️ Barre : Filtres, Cinéma, 4x, HQ 200%, Capture"
+  },
+  "ytOptMusicPremium": {
+    "message": "🎵 YT Music : Mode « Audio seul » + HQ Studio Bass"
+  },
+  "ytOptPremiumLogo": {
+    "message": "✨ Badge PREMIUM et masquer les promos"
+  },
+  "ytTweaksTitle": {
+    "message": "🛠 Enhancer for YouTube & YT Tweaks"
+  },
+  "ytOptMiniPlayer": {
+    "message": "📌 Mini-lecteur flottant en lisant les commentaires"
+  },
+  "ytOptWheelVolume": {
+    "message": "🖱️ Volume à la molette (côté droit du lecteur)"
+  },
+  "ytOptHideEndscreens": {
+    "message": "🚫 Masquer les écrans de fin"
+  },
+  "ytOptHideShorts": {
+    "message": "🚫 Masquer complètement YouTube Shorts"
+  },
+  "ytOptSquareCorners": {
+    "message": "🔲 Coins carrés (lecteur et miniatures)"
+  },
+  "ytOptHideSidebar": {
+    "message": "🙈 Masquer la barre de recommandations"
+  },
+  "ytOptHideComments": {
+    "message": "💬 Masquer les commentaires"
+  },
+  "ytGridColumnsLabel": {
+    "message": "Vidéos par ligne (Accueil) :"
+  }
+}

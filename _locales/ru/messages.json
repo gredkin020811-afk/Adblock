@@ -1,0 +1,248 @@
+{
+  "extName": {
+    "message": "UltiBlock Pro by Bulki228"
+  },
+  "extDescription": {
+    "message": "Максимальный комбайн 5-в-1: Блокировщик рекламы без исключений, YouTube & Music Premium, Enhancer for YouTube + YT Tweaks, Smart Dark Reader и прямое скачивание видео/MP3/фото."
+  },
+  "actionTitle": {
+    "message": "UltiBlock Pro 5-in-1"
+  },
+  "contextMenuDownload": {
+    "message": "📥 UltiBlock: Скачать фото / видео / аудио напрямую"
+  },
+  "globalToggleTitle": {
+    "message": "Глобальное включение/выключение"
+  },
+  "langTitle": {
+    "message": "Язык интерфейса"
+  },
+  "langAuto": {
+    "message": "Авто"
+  },
+  "statusActive": {
+    "message": "AdBlock + YT Premium + Tweaks + Dark + DL"
+  },
+  "statusGlobalOff": {
+    "message": "Защита глобально отключена"
+  },
+  "statusSitePaused": {
+    "message": "Пауза на {domain}"
+  },
+  "tabAdblock": {
+    "message": "🛡️ Адблок & DL"
+  },
+  "tabDark": {
+    "message": "🌙 Dark Reader"
+  },
+  "tabYt": {
+    "message": "▶️ YT + Tweaks"
+  },
+  "currentSite": {
+    "message": "Текущий сайт"
+  },
+  "systemTab": {
+    "message": "Системная вкладка"
+  },
+  "adblockHere": {
+    "message": "Адблок здесь"
+  },
+  "blockedOnTab": {
+    "message": "Заблокировано на этой вкладке:"
+  },
+  "statNetwork": {
+    "message": "Сеть и трекеры"
+  },
+  "statYoutube": {
+    "message": "YouTube + Интеграции"
+  },
+  "statDom": {
+    "message": "DOM баннеры"
+  },
+  "statPopup": {
+    "message": "Попапы / Редиректы"
+  },
+  "dlManagerTitle": {
+    "message": "📥 Менеджер загрузок (Фоновый режим)"
+  },
+  "clearBtn": {
+    "message": "Очистить"
+  },
+  "dlEmpty": {
+    "message": "Нет активных загрузок (качает в фоне даже при закрытии окна)"
+  },
+  "dlCancelTitle": {
+    "message": "Отменить загрузку"
+  },
+  "dlSpeedLabel": {
+    "message": "⚡ Трафик (Анти-лаг Discord):"
+  },
+  "dlSpeedTitle": {
+    "message": "Ограничивает скорость скачивания, чтобы Discord и браузер не тормозили"
+  },
+  "dlSpeedUnit": {
+    "message": "МБ/с"
+  },
+  "dlSizeUnit": {
+    "message": "МБ"
+  },
+  "dlSpeedMax": {
+    "message": "Макс"
+  },
+  "dlBtnEverywhere": {
+    "message": "📥 Кнопка «Скачать» везде (Фото, YouTube и Music)"
+  },
+  "dlBtnOnSite": {
+    "message": "📥 Кнопка «Скачать» на этом сайте"
+  },
+  "whitelistTitle": {
+    "message": "Сайты, где Адблок выключен (Белый список)"
+  },
+  "whitelistRestoreTitle": {
+    "message": "Включить Адблок обратно на этом сайте"
+  },
+  "pickerBtn": {
+    "message": "🎯 Выбрать и вырезать элемент на сайте"
+  },
+  "customHiddenCount": {
+    "message": "Скрыто вручную на сайте: {count}"
+  },
+  "resetBtn": {
+    "message": "Сбросить"
+  },
+  "blacklistTitle": {
+    "message": "Черный список доменов (DNR)"
+  },
+  "blacklistPlaceholder": {
+    "message": "например: annoying-ads.ru"
+  },
+  "blacklistRemoveTitle": {
+    "message": "Удалить из черного списка"
+  },
+  "cloudSyncBtn": {
+    "message": "☁️ Обновить облачную базу (+3500 рекламных серверов)"
+  },
+  "cloudSyncLoading": {
+    "message": "⏳ Загрузка и компиляция DNR правил..."
+  },
+  "cloudSyncDone": {
+    "message": "✅ База обновлена (+{count} доменов)"
+  },
+  "cloudSyncError": {
+    "message": "⚠️ Ошибка загрузки (попробуйте позже)"
+  },
+  "cloudMetaUpdated": {
+    "message": "Облачная база: +{count} доменов (обн. {date})"
+  },
+  "madeBy": {
+    "message": "Made by Bulki228 • v1.0"
+  },
+  "darkTitle": {
+    "message": "🌙 Умная тёмная тема"
+  },
+  "darkStatusActive": {
+    "message": "Активна на сайте (Хоткей: Alt + D)"
+  },
+  "darkStatusGlobalOff": {
+    "message": "Глобально выключена (Alt + D)"
+  },
+  "darkStatusSiteOff": {
+    "message": "Отключена для {domain}"
+  },
+  "darkStatusSiteForce": {
+    "message": "Принудительно включена на {domain}"
+  },
+  "darkStatusNativeSkip": {
+    "message": "У сайта уже своя тёмная тема (Авто-пропуск)"
+  },
+  "darkSiteModeLabel": {
+    "message": "Режим на этом сайте:"
+  },
+  "modeAuto": {
+    "message": "Авто"
+  },
+  "modeOn": {
+    "message": "Вкл"
+  },
+  "modeOff": {
+    "message": "Выкл"
+  },
+  "darkEngineTitle": {
+    "message": "Движок рендеринга"
+  },
+  "darkEngineSmartSub": {
+    "message": "Без инверсии фото/цветов"
+  },
+  "darkEngineGpuSub": {
+    "message": "Ультра-быстрый 120 FPS"
+  },
+  "darkPaletteTitle": {
+    "message": "Цветовая палитра"
+  },
+  "darkBrightness": {
+    "message": "☀️ Яркость"
+  },
+  "darkContrast": {
+    "message": "◐ Контраст"
+  },
+  "darkWarmth": {
+    "message": "🔥 Тёплый спектр (Защита глаз)"
+  },
+  "darkAutoSkipNative": {
+    "message": "🧠 Не трогать сайты со своей тёмной темой"
+  },
+  "ytCardTitle": {
+    "message": "▶️ YouTube & Music Premium + Загрузчик"
+  },
+  "ytOptNonStop": {
+    "message": "🎧 Фоновый режим + Без пауз «Вы смотрите?»"
+  },
+  "ytOptSponsorBlock": {
+    "message": "⏭ Авто-пропуск интеграций (SponsorBlock)"
+  },
+  "ytOptAutoMaxQuality": {
+    "message": "💎 Авто-максимальное качество (4K / 1080p60)"
+  },
+  "ytOptReturnDislikes": {
+    "message": "👎 Возврат реальных дизлайков (Dislikes)"
+  },
+  "ytOptShowDownload": {
+    "message": "📥 Показывать кнопку «Скачать» (YouTube, Music и Фото)"
+  },
+  "ytOptPlayerEnhancements": {
+    "message": "🎛️ Панель: Фильтры, Кинотеатр, 4x, HQ 200%, Скриншот"
+  },
+  "ytOptMusicPremium": {
+    "message": "🎵 YT Music: Режим «Только аудио» + HQ Studio Bass"
+  },
+  "ytOptPremiumLogo": {
+    "message": "✨ Значок PREMIUM и скрытие промо-окон"
+  },
+  "ytTweaksTitle": {
+    "message": "🛠 Enhancer for YouTube & YT Tweaks"
+  },
+  "ytOptMiniPlayer": {
+    "message": "📌 Плавающий мини-плеер при чтении комментариев"
+  },
+  "ytOptWheelVolume": {
+    "message": "🖱️ Громкость колёсиком мыши (правая часть видео)"
+  },
+  "ytOptHideEndscreens": {
+    "message": "🚫 Скрыть конечные заставки в конце роликов"
+  },
+  "ytOptHideShorts": {
+    "message": "🚫 Полностью скрыть YouTube Shorts"
+  },
+  "ytOptSquareCorners": {
+    "message": "🔲 Квадратные углы плеера и превью"
+  },
+  "ytOptHideSidebar": {
+    "message": "🙈 Скрыть боковую колонку рекомендаций"
+  },
+  "ytOptHideComments": {
+    "message": "💬 Скрыть блок комментариев"
+  },
+  "ytGridColumnsLabel": {
+    "message": "Видео в ряду на главной:"
+  }
+}

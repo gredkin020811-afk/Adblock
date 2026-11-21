@@ -1,0 +1,248 @@
+{
+  "extName": {
+    "message": "UltiBlock Pro by Bulki228"
+  },
+  "extDescription": {
+    "message": "五合一浏览器增强套件：强力广告拦截、YouTube 与 Music Premium、播放器增强与界面微调、智能深色模式、视频/MP3/图片直接下载。"
+  },
+  "actionTitle": {
+    "message": "UltiBlock Pro 5-in-1"
+  },
+  "contextMenuDownload": {
+    "message": "📥 UltiBlock：直接下载图片 / 视频 / 音频"
+  },
+  "globalToggleTitle": {
+    "message": "全局开关"
+  },
+  "langTitle": {
+    "message": "界面语言"
+  },
+  "langAuto": {
+    "message": "自动"
+  },
+  "statusActive": {
+    "message": "AdBlock + YT Premium + Tweaks + Dark + DL"
+  },
+  "statusGlobalOff": {
+    "message": "保护已全局关闭"
+  },
+  "statusSitePaused": {
+    "message": "已在 {domain} 暂停"
+  },
+  "tabAdblock": {
+    "message": "🛡️ 拦截与下载"
+  },
+  "tabDark": {
+    "message": "🌙 深色模式"
+  },
+  "tabYt": {
+    "message": "▶️ YT 增强"
+  },
+  "currentSite": {
+    "message": "当前网站"
+  },
+  "systemTab": {
+    "message": "系统标签页"
+  },
+  "adblockHere": {
+    "message": "在此站启用"
+  },
+  "blockedOnTab": {
+    "message": "本标签页已拦截："
+  },
+  "statNetwork": {
+    "message": "网络与追踪器"
+  },
+  "statYoutube": {
+    "message": "YouTube + 赞助片段"
+  },
+  "statDom": {
+    "message": "页面广告横幅"
+  },
+  "statPopup": {
+    "message": "弹窗 / 重定向"
+  },
+  "dlManagerTitle": {
+    "message": "📥 后台下载管理器"
+  },
+  "clearBtn": {
+    "message": "清除"
+  },
+  "dlEmpty": {
+    "message": "暂无活跃下载（关闭窗口后仍可在后台继续）"
+  },
+  "dlCancelTitle": {
+    "message": "取消下载"
+  },
+  "dlSpeedLabel": {
+    "message": "⚡ 限速保护（防卡顿）："
+  },
+  "dlSpeedTitle": {
+    "message": "限制下载速度，防止 Discord 或浏览器卡顿"
+  },
+  "dlSpeedUnit": {
+    "message": "MB/s"
+  },
+  "dlSizeUnit": {
+    "message": "MB"
+  },
+  "dlSpeedMax": {
+    "message": "不限"
+  },
+  "dlBtnEverywhere": {
+    "message": "📥 全局显示“下载”按钮（图片、YouTube 与 Music）"
+  },
+  "dlBtnOnSite": {
+    "message": "📥 在此网站显示“下载”按钮"
+  },
+  "whitelistTitle": {
+    "message": "已关闭广告拦截的网站（白名单）"
+  },
+  "whitelistRestoreTitle": {
+    "message": "在此网站重新启用广告拦截"
+  },
+  "pickerBtn": {
+    "message": "🎯 手动选择并移除页面元素"
+  },
+  "customHiddenCount": {
+    "message": "此网站手动隐藏元素：{count}"
+  },
+  "resetBtn": {
+    "message": "重置"
+  },
+  "blacklistTitle": {
+    "message": "域名黑名单 (DNR)"
+  },
+  "blacklistPlaceholder": {
+    "message": "例如：annoying-ads.com"
+  },
+  "blacklistRemoveTitle": {
+    "message": "从黑名单移除"
+  },
+  "cloudSyncBtn": {
+    "message": "☁️ 更新云端广告规则库（+3500 广告服务器）"
+  },
+  "cloudSyncLoading": {
+    "message": "⏳ 正在下载并编译 DNR 规则..."
+  },
+  "cloudSyncDone": {
+    "message": "✅ 已更新（+{count} 个域名）"
+  },
+  "cloudSyncError": {
+    "message": "⚠️ 更新失败（请稍后再试）"
+  },
+  "cloudMetaUpdated": {
+    "message": "云端库：+{count} 个域名（更新于 {date}）"
+  },
+  "madeBy": {
+    "message": "Made by Bulki228 • v1.0"
+  },
+  "darkTitle": {
+    "message": "🌙 智能深色主题"
+  },
+  "darkStatusActive": {
+    "message": "已在此网站启用（快捷键：Alt + D）"
+  },
+  "darkStatusGlobalOff": {
+    "message": "已全局关闭（Alt + D）"
+  },
+  "darkStatusSiteOff": {
+    "message": "已在 {domain} 关闭"
+  },
+  "darkStatusSiteForce": {
+    "message": "已在 {domain} 强制开启"
+  },
+  "darkStatusNativeSkip": {
+    "message": "网站自带深色主题（已自动跳过）"
+  },
+  "darkSiteModeLabel": {
+    "message": "此网站模式："
+  },
+  "modeAuto": {
+    "message": "自动"
+  },
+  "modeOn": {
+    "message": "开启"
+  },
+  "modeOff": {
+    "message": "关闭"
+  },
+  "darkEngineTitle": {
+    "message": "渲染引擎"
+  },
+  "darkEngineSmartSub": {
+    "message": "不反转图片与原色"
+  },
+  "darkEngineGpuSub": {
+    "message": "极速 120 FPS"
+  },
+  "darkPaletteTitle": {
+    "message": "配色方案"
+  },
+  "darkBrightness": {
+    "message": "☀️ 亮度"
+  },
+  "darkContrast": {
+    "message": "◐ 对比度"
+  },
+  "darkWarmth": {
+    "message": "🔥 暖色护眼滤镜"
+  },
+  "darkAutoSkipNative": {
+    "message": "🧠 自动跳过自带深色模式的网站"
+  },
+  "ytCardTitle": {
+    "message": "▶️ YouTube & Music Premium + 下载器"
+  },
+  "ytOptNonStop": {
+    "message": "🎧 后台播放 + 屏蔽“还在观看吗？”暂停"
+  },
+  "ytOptSponsorBlock": {
+    "message": "⏭ 自动跳过赞助商与片头（SponsorBlock）"
+  },
+  "ytOptAutoMaxQuality": {
+    "message": "💎 自动最高画质（4K / 1080p60）"
+  },
+  "ytOptReturnDislikes": {
+    "message": "👎 恢复真实点踩数（Dislikes）"
+  },
+  "ytOptShowDownload": {
+    "message": "📥 显示“下载”按钮（YouTube、Music 与图片）"
+  },
+  "ytOptPlayerEnhancements": {
+    "message": "🎛️ 工具栏：滤镜、影院、4x、HQ 200%、截图"
+  },
+  "ytOptMusicPremium": {
+    "message": "🎵 YT Music：纯音频模式 + HQ 低音增强"
+  },
+  "ytOptPremiumLogo": {
+    "message": "✨ PREMIUM 徽标并隐藏推广弹窗"
+  },
+  "ytTweaksTitle": {
+    "message": "🛠 Enhancer for YouTube 与界面微调"
+  },
+  "ytOptMiniPlayer": {
+    "message": "📌 浏览评论时悬浮迷你播放器"
+  },
+  "ytOptWheelVolume": {
+    "message": "🖱️ 鼠标滚轮调音量（视频右侧区域）"
+  },
+  "ytOptHideEndscreens": {
+    "message": "🚫 隐藏视频片尾推荐卡片"
+  },
+  "ytOptHideShorts": {
+    "message": "🚫 完全隐藏 YouTube Shorts"
+  },
+  "ytOptSquareCorners": {
+    "message": "🔲 播放器与缩略图直角样式"
+  },
+  "ytOptHideSidebar": {
+    "message": "🙈 隐藏右侧推荐栏"
+  },
+  "ytOptHideComments": {
+    "message": "💬 隐藏评论区"
+  },
+  "ytGridColumnsLabel": {
+    "message": "首页每行视频数："
+  }
+}

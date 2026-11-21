@@ -1,0 +1,202 @@
+/**
+ * UltiBlock Pro — Universal Cosmetic Filtering Stylesheet
+ * Injected at document_start across all frames.
+ * Automatically disabled on a domain if html[data-ultiblock-disabled="true"] is set.
+ */
+
+/* ============================================================================
+   1. YOUTUBE AD SLOTS, PROMOS, OVERLAYS & MASTHEAD
+   ============================================================================ */
+html:not([data-ultiblock-disabled="true"]) ytd-ad-slot-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-in-feed-ad-layout-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-banner-promo-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-statement-banner-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-display-ad-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-promoted-sparkles-web-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-promoted-sparkles-text-search-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-promoted-video-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-compact-promoted-video-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-video-masthead-ad-v3-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-primetime-promo-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-action-companion-ad-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-Companion-slot-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-player-legacy-desktop-watch-ads-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"],
+html:not([data-ultiblock-disabled="true"]) ytd-merch-shelf-renderer,
+html:not([data-ultiblock-disabled="true"]) ytm-promoted-sparkles-web-renderer,
+html:not([data-ultiblock-disabled="true"]) ytm-companion-ad-renderer,
+html:not([data-ultiblock-disabled="true"]) #masthead-ad,
+html:not([data-ultiblock-disabled="true"]) #panels > ytd-engagement-panel-section-list-renderer[target-id="engagement-panel-ads"],
+html:not([data-ultiblock-disabled="true"]) .ytp-ad-overlay-container,
+html:not([data-ultiblock-disabled="true"]) .ytp-ad-message-container,
+html:not([data-ultiblock-disabled="true"]) .ytp-ad-image-overlay,
+html:not([data-ultiblock-disabled="true"]) .ytp-ad-text-overlay,
+html:not([data-ultiblock-disabled="true"]) .ytp-ad-player-overlay-flyout-cta,
+html:not([data-ultiblock-disabled="true"]) .ytp-featured-product,
+html:not([data-ultiblock-disabled="true"]) .ytd-watch-next-secondary-results-renderer > ytd-ad-slot-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-rich-item-renderer:has(> #content > ytd-ad-slot-renderer),
+html:not([data-ultiblock-disabled="true"]) ytd-rich-section-renderer:has(ytd-statement-banner-renderer),
+html:not([data-ultiblock-disabled="true"]) ytd-rich-section-renderer:has(ytd-ad-slot-renderer),
+html:not([data-ultiblock-disabled="true"]) tp-yt-paper-dialog:has(ytd-enforcement-message-view-model),
+html:not([data-ultiblock-disabled="true"]) tp-yt-paper-dialog:has(#feedback.ytd-enforcement-message-view-model),
+html:not([data-ultiblock-disabled="true"]) ytd-mealbar-promo-renderer,
+html:not([data-ultiblock-disabled="true"]) ytmusic-mealbar-promo-renderer,
+html:not([data-ultiblock-disabled="true"]) ytmusic-statement-banner-renderer,
+html:not([data-ultiblock-disabled="true"]) ytd-popup-container > tp-yt-paper-dialog:has(ytd-mealbar-promo-renderer),
+html:not([data-ultiblock-disabled="true"]) #player-error-message-container,
+html:not([data-ultiblock-disabled="true"]) yt-playability-error-supported-renderers#error-screen,
+html:not([data-ultiblock-disabled="true"]) .yt-player-error-message-renderer,
+html:not([data-ultiblock-disabled="true"]) .ytp-error,
+html:not([data-ultiblock-disabled="true"]) tp-yt-paper-dialog:has(.ytd-enforcement-message-view-model),
+html:not([data-ultiblock-disabled="true"]) ytmusic-guide-section-renderer a[href*="music_premium"] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Force YouTube video stream to stay visible when player-unavailable is set */
+html:not([data-ultiblock-disabled="true"]) ytd-watch-flexy[player-unavailable] #player-container-outer,
+html:not([data-ultiblock-disabled="true"]) ytd-watch-flexy[player-unavailable] #cinematics-container,
+html:not([data-ultiblock-disabled="true"]) ytd-watch-flexy[player-unavailable] #ytd-player > #container,
+html:not([data-ultiblock-disabled="true"]) ytd-watch-flexy[player-unavailable] #movie_player,
+html:not([data-ultiblock-disabled="true"]) ytd-watch-flexy[player-unavailable] video {
+  visibility: visible !important;
+  display: block !important;
+  opacity: 1 !important;
+}
+
+/* YouTube Music Audio-Only Mode */
+html[data-ultiblock-ytm-audio-only="true"] ytmusic-player #song-video video {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+/* ============================================================================
+   2. RUSSIAN / CIS AD NETWORKS (Yandex Direct, AdFox, VK, Mail.ru, Teasers)
+   ============================================================================ */
+html:not([data-ultiblock-disabled="true"]) [id^="yandex_rtb_"],
+html:not([data-ultiblock-disabled="true"]) [id*="yandex_rtb"],
+html:not([data-ultiblock-disabled="true"]) [id^="adfox_"],
+html:not([data-ultiblock-disabled="true"]) [id*="adfox_"],
+html:not([data-ultiblock-disabled="true"]) [class*="ya-partner"],
+html:not([data-ultiblock-disabled="true"]) .ya-site-form__banner,
+html:not([data-ultiblock-disabled="true"]) .AdvBanner,
+html:not([data-ultiblock-disabled="true"]) [data-bem*="adv-"],
+html:not([data-ultiblock-disabled="true"]) [class^="Direct_"],
+html:not([data-ultiblock-disabled="true"]) [id^="begun_block_"],
+html:not([data-ultiblock-disabled="true"]) [id^="adriver_"],
+html:not([data-ultiblock-disabled="true"]) [id^="smi2adblock_"],
+html:not([data-ultiblock-disabled="true"]) [class*="smi2-"],
+html:not([data-ultiblock-disabled="true"]) [id^="MarketGid"],
+html:not([data-ultiblock-disabled="true"]) [id^="MComposite"],
+html:not([data-ultiblock-disabled="true"]) [class*="mgbox"],
+html:not([data-ultiblock-disabled="true"]) [id^="teasernet_"],
+html:not([data-ultiblock-disabled="true"]) [id^="directadvert_"],
+html:not([data-ultiblock-disabled="true"]) [class*="kadam_"],
+html:not([data-ultiblock-disabled="true"]) [id^="relap-"],
+html:not([data-ultiblock-disabled="true"]) .trg-b-banner,
+html:not([data-ultiblock-disabled="true"]) .rb_banner,
+html:not([data-ultiblock-disabled="true"]) #ads_left,
+html:not([data-ultiblock-disabled="true"]) .ads_ads_news_wrap,
+html:not([data-ultiblock-disabled="true"]) ._ads_block_data_w,
+html:not([data-ultiblock-disabled="true"]) .mailru-visibility-check,
+html:not([data-ultiblock-disabled="true"]) [data-ad-provider],
+html:not([data-ultiblock-disabled="true"]) [data-adfox-id],
+html:not([data-ultiblock-disabled="true"]) [data-yandex-rtb] {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* ============================================================================
+   3. CASINO, BETTING & PIRATE STREAMING BANNERS (1xBet, Mostbet, Vavada, etc.)
+   ============================================================================ */
+html:not([data-ultiblock-disabled="true"]) a[href*="1xbet"],
+html:not([data-ultiblock-disabled="true"]) a[href*="1xstavka"],
+html:not([data-ultiblock-disabled="true"]) a[href*="melbet"],
+html:not([data-ultiblock-disabled="true"]) a[href*="mostbet"],
+html:not([data-ultiblock-disabled="true"]) a[href*="vavada"],
+html:not([data-ultiblock-disabled="true"]) a[href*="joycasino"],
+html:not([data-ultiblock-disabled="true"]) a[href*="casino-x"],
+html:not([data-ultiblock-disabled="true"]) a[href*="azino777"],
+html:not([data-ultiblock-disabled="true"]) a[href*="pin-up"],
+html:not([data-ultiblock-disabled="true"]) a[href*="1win"],
+html:not([data-ultiblock-disabled="true"]) a[href*="dragonmoney"],
+html:not([data-ultiblock-disabled="true"]) a[href*="catcasino"],
+html:not([data-ultiblock-disabled="true"]) a[href*="kentcasino"],
+html:not([data-ultiblock-disabled="true"]) a[href*="pokerdom"],
+html:not([data-ultiblock-disabled="true"]) [id*="preroll"],
+html:not([data-ultiblock-disabled="true"]) [class*="preroll-"],
+html:not([data-ultiblock-disabled="true"]) [id*="brand-bg"],
+html:not([data-ultiblock-disabled="true"]) .branding-banner,
+html:not([data-ultiblock-disabled="true"]) .catfish-banner,
+html:not([data-ultiblock-disabled="true"]) #catfish,
+html:not([data-ultiblock-disabled="true"]) .float-banner,
+html:not([data-ultiblock-disabled="true"]) .sticky-ad,
+html:not([data-ultiblock-disabled="true"]) .bottom-ad-banner {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* ============================================================================
+   4. GLOBAL AD NETWORKS & GENERIC AD CONTAINERS
+   ============================================================================ */
+html:not([data-ultiblock-disabled="true"]) ins.adsbygoogle,
+html:not([data-ultiblock-disabled="true"]) .adsbygoogle,
+html:not([data-ultiblock-disabled="true"]) [id^="div-gpt-ad"],
+html:not([data-ultiblock-disabled="true"]) [id*="google_ads_iframe"],
+html:not([data-ultiblock-disabled="true"]) [data-google-query-id],
+html:not([data-ultiblock-disabled="true"]) [data-ad-client],
+html:not([data-ultiblock-disabled="true"]) [data-ad-slot],
+html:not([data-ultiblock-disabled="true"]) [data-ad-unit],
+html:not([data-ultiblock-disabled="true"]) [data-ad-region],
+html:not([data-ultiblock-disabled="true"]) [data-ez-ph-id],
+html:not([data-ultiblock-disabled="true"]) .ezoic-ad,
+html:not([data-ultiblock-disabled="true"]) .taboola-widget,
+html:not([data-ultiblock-disabled="true"]) [id^="taboola-"],
+html:not([data-ultiblock-disabled="true"]) .OUTBRAIN,
+html:not([data-ultiblock-disabled="true"]) [id^="outbrain_widget_"],
+html:not([data-ultiblock-disabled="true"]) .rc-wc,
+html:not([data-ultiblock-disabled="true"]) [id^="rc-widget-"],
+html:not([data-ultiblock-disabled="true"]) amp-ad,
+html:not([data-ultiblock-disabled="true"]) amp-embed,
+html:not([data-ultiblock-disabled="true"]) amp-sticky-ad,
+html:not([data-ultiblock-disabled="true"]) .ad-container,
+html:not([data-ultiblock-disabled="true"]) .ad-wrapper,
+html:not([data-ultiblock-disabled="true"]) .ad-slot,
+html:not([data-ultiblock-disabled="true"]) .advertisement-container,
+html:not([data-ultiblock-disabled="true"]) .sponsored-content,
+html:not([data-ultiblock-disabled="true"]) .dfp-ad,
+html:not([data-ultiblock-disabled="true"]) .gpt-ad,
+html:not([data-ultiblock-disabled="true"]) iframe[src*="doubleclick.net"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="googlesyndication.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="adnxs.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="yandex.ru/ads"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="adfox.ru"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="exoclick.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="trafficstars.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="juicyads.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="adsterra.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="mgid.com"],
+html:not([data-ultiblock-disabled="true"]) iframe[src*="teasernet.com"] {
+  display: none !important;
+  visibility: hidden !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  pointer-events: none !important;
+}

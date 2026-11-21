@@ -1,0 +1,587 @@
+[
+  {
+    "id": 1,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "doubleclick.net",
+        "googlesyndication.com",
+        "googleadservices.com",
+        "adservice.google.com",
+        "adservice.google.ru",
+        "googletagservices.com",
+        "2mdn.net",
+        "admeld.com",
+        "admob.com",
+        "adsense.com",
+        "adsensecustomsearchads.com",
+        "adsenseformobileapps.com",
+        "advertisercommunity.com",
+        "adwords.com",
+        "bg.doubleclick.net",
+        "googleads.g.doubleclick.net",
+        "pagead2.googlesyndication.com",
+        "tpc.googlesyndication.com",
+        "partner.googleadservices.com",
+        "afs.googlesyndication.com",
+        "fundingchoicesmessages.google.com"
+      ],
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "m.youtube.com",
+        "music.youtube.com"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "adnxs.com",
+        "ib.adnxs.com",
+        "rubiconproject.com",
+        "fastlane.rubiconproject.com",
+        "pubmatic.com",
+        "ads.pubmatic.com",
+        "openx.net",
+        "openx.com",
+        "criteo.com",
+        "criteo.net",
+        "casalemedia.com",
+        "indexww.com",
+        "taboola.com",
+        "trc.taboola.com",
+        "cdn.taboola.com",
+        "outbrain.com",
+        "outbrainimg.com",
+        "widgets.outbrain.com",
+        "amazon-adsystem.com",
+        "aax.amazon-adsystem.com",
+        "c.amazon-adsystem.com",
+        "media.net",
+        "contextual.media.net",
+        "smartadserver.com",
+        "adform.net",
+        "adform.com",
+        "teads.tv",
+        "a.teads.tv",
+        "revcontent.com",
+        "trends.revcontent.com",
+        "sharethrough.com",
+        "zemanta.com",
+        "bidswitch.net",
+        "spotxchange.com",
+        "spotx.tv",
+        "springserve.com",
+        "connatix.com",
+        "primis.tech",
+        "aniview.com",
+        "33across.com",
+        "sovrn.com",
+        "lijit.com",
+        "gumgum.com",
+        "kargo.com",
+        "triplelift.com",
+        "3lift.com",
+        "yieldmo.com",
+        "nativo.com",
+        "adroll.com",
+        "d.adroll.com",
+        "quantserve.com",
+        "scorecardresearch.com",
+        "moatads.com",
+        "adsafeprotected.com",
+        "doubleverify.com",
+        "serving-sys.com",
+        "flashtalking.com",
+        "celtra.com",
+        "innovid.com",
+        "extreme-dm.com",
+        "adcolony.com",
+        "unityads.unity3d.com",
+        "applovin.com",
+        "vungle.com",
+        "chartboost.com",
+        "inmobi.com",
+        "tapjoy.com",
+        "ironsrc.com",
+        "smaato.net",
+        "fyber.com",
+        "zynga.com"
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "an.yandex.ru",
+        "bs.yandex.ru",
+        "yabs.yandex.ru",
+        "yabs.yandex.com",
+        "adsdk.yandex.ru",
+        "awaps.yandex.net",
+        "awaps.yandex.ru",
+        "ads.adfox.ru",
+        "adfox.ru",
+        "banners.adfox.ru",
+        "content.adfox.ru",
+        "direct.yandex.ru",
+        "partner.yandex.ru",
+        "grade.yandex.ru",
+        "kiks.yandex.ru",
+        "clck.yandex.ru",
+        "ad.mail.ru",
+        "r.mail.ru",
+        "rs.mail.ru",
+        "target.my.com",
+        "ad.adriver.ru",
+        "adriver.ru",
+        "content.adriver.ru",
+        "ssp.rambler.ru",
+        "ad.rambler.ru",
+        "begun.ru",
+        "autocontext.begun.ru",
+        "relap.io",
+        "buzzoola.com",
+        "tube.buzzoola.com",
+        "moevideo.biz",
+        "pladform.ru",
+        "nativeroll.tv",
+        "betweendigital.com",
+        "cache.betweendigital.com",
+        "astraone.io",
+        "hybrid.ai",
+        "dsa.hybrid.ai",
+        "adriver.com",
+        "soloway.ru",
+        "kavanga.ru",
+        "videonow.ru",
+        "vihub.ru",
+        "beseed.ru",
+        "getintent.ru",
+        "adhigh.net",
+        "aidata.io",
+        "amberdata.io",
+        "audsp.com",
+        "bumlam.com",
+        "c8.net.ua",
+        "catcut.net",
+        "cityads.com",
+        "clickberry.tv",
+        "adlabs.ru",
+        "advmaker.ru",
+        "adwise.agency",
+        "otm-r.com",
+        "sape.ru",
+        "rtb.sape.ru",
+        "acint.net",
+        "alexametrics.com",
+        "uptolike.com",
+        "pluso.ru",
+        "usocial.pro"
+      ]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "mgid.com",
+        "jsc.mgid.com",
+        "servicer.mgid.com",
+        "cdn.mgid.com",
+        "marketgid.com",
+        "jsc.marketgid.com",
+        "idealmedia.io",
+        "lentainform.com",
+        "smi2.ru",
+        "smi2.net",
+        "static.smi2.net",
+        "24smi.info",
+        "24smi.org",
+        "data.24smi.net",
+        "teasernet.com",
+        "step.teasernet.com",
+        "directadvert.ru",
+        "code.directadvert.ru",
+        "kadam.net",
+        "redtram.com",
+        "bodyclick.net",
+        "visitweb.com",
+        "luckyads.pro",
+        "luckyfeed.pro",
+        "actionpay.ru",
+        "actionteaser.ru",
+        "adprofex.com",
+        "tovarro.com",
+        "recreativ.ru",
+        "adsnative.com",
+        "adskeeper.com",
+        "adskeeper.co.uk",
+        "jsc.adskeeper.co.uk",
+        "engageya.com",
+        "plista.com",
+        "ligatus.com",
+        "strossle.com",
+        "mediametrics.ru",
+        "sparrow.ru",
+        "trafmag.com",
+        "biggon.ru",
+        "ladycash.ru",
+        "pay-click.ru",
+        "etarg.ru",
+        "etarg.net",
+        "nestor.etarg.ru",
+        "yottos.com",
+        "admixer.net",
+        "inv-nets.admixer.net",
+        "cdn.admixer.net",
+        "holder.com.ua"
+      ]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "propellerads.com",
+        "propellerclick.com",
+        "popads.net",
+        "popcash.net",
+        "popmyads.com",
+        "hilltopads.net",
+        "hilltopads.com",
+        "clickadu.com",
+        "adsterra.com",
+        "adsterratools.com",
+        "highperformanceformat.com",
+        "effectivegatecpm.com",
+        "profitablecpmrate.com",
+        "topcreativeformat.com",
+        "exoclick.com",
+        "main.exoclick.com",
+        "syndication.exoclick.com",
+        "juicyads.com",
+        "adserver.juicyads.com",
+        "trafficjunky.net",
+        "trafficjunky.com",
+        "media.trafficjunky.net",
+        "trafficstars.com",
+        "cdn.trafficstars.com",
+        "tsyndicate.com",
+        "trafficfactory.biz",
+        "eroadvertising.com",
+        "richpush.co",
+        "richads.com",
+        "push.house",
+        "daopush.com",
+        "megapush.com",
+        "evadav.com",
+        "galaksion.com",
+        "rollerads.com",
+        "mondiad.com",
+        "onclicka.com",
+        "bidvertiser.com",
+        "adcash.com",
+        "admaven.com",
+        "popunder.net",
+        "popunder.ru",
+        "clickunder.ru",
+        "traforet.com",
+        "bidgear.com",
+        "valueimpression.com",
+        "vidoomy.com",
+        "viads.com",
+        "vidazoo.com",
+        "ex.co",
+        "playwire.com",
+        "freestar.com",
+        "ezoic.net",
+        "go.ezoic.net",
+        "snigelweb.com",
+        "adthrive.com",
+        "mediavine.com",
+        "scripts.mediavine.com",
+        "monumetric.com",
+        "venatusmedia.com",
+        "nitroay.com",
+        "nitropay.com",
+        "setupad.com"
+      ]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "requestDomains": [
+        "imasdk.googleapis.com"
+      ],
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "m.youtube.com",
+        "music.youtube.com"
+      ]
+    }
+  },
+  {
+    "id": 12,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/pagead/js/adsbygoogle.js*",
+      "resourceTypes": ["script"],
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "m.youtube.com",
+        "music.youtube.com"
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/gpt.js",
+      "requestDomains": ["securepubads.g.doubleclick.net", "www.googletagservices.com"],
+      "resourceTypes": ["script"],
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "m.youtube.com",
+        "music.youtube.com"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/prebid*.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 15,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/popunder*.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 16,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/clickunder*.js*",
+      "resourceTypes": ["script"]
+    }
+  },
+  {
+    "id": 17,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/adframe*.js*",
+      "resourceTypes": ["script", "sub_frame"]
+    }
+  },
+  {
+    "id": 18,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/vast.xml*",
+      "resourceTypes": ["xmlhttprequest", "media", "other"]
+    }
+  },
+  {
+    "id": 19,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/vmap.xml*",
+      "resourceTypes": ["xmlhttprequest", "media", "other"]
+    }
+  },
+  {
+    "id": 20,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*://*/vast?*",
+      "resourceTypes": ["xmlhttprequest", "media", "other"]
+    }
+  },
+  {
+    "id": 21,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/preroll*",
+      "resourceTypes": ["xmlhttprequest", "media", "script", "sub_frame"]
+    }
+  },
+  {
+    "id": 22,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/midroll*",
+      "resourceTypes": ["xmlhttprequest", "media", "script", "sub_frame"]
+    }
+  },
+  {
+    "id": 23,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/banners/*",
+      "resourceTypes": ["image", "sub_frame", "script", "media"]
+    }
+  },
+  {
+    "id": 24,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/adserver/*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 25,
+    "priority": 90,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "*/adservice/*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 26,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||strm.yandex.net/*strm-rad*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 27,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||yandex.ru/ads/*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 28,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||vk.com/ads_rotate.php*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 29,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||rutube.ru/api/v2/advertising/*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 30,
+    "priority": 100,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||ok.ru/dk?cmd=Ad*",
+      "excludedResourceTypes": ["main_frame"]
+    }
+  },
+  {
+    "id": 31,
+    "priority": 1000,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "origin", "operation": "remove" },
+        { "header": "cookie", "operation": "remove" },
+        { "header": "referer", "operation": "remove" },
+        {
+          "header": "user-agent",
+          "operation": "set",
+          "value": "com.google.android.youtube/20.03.35 (Linux; U; Android 14) gzip"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||youtube.com/youtubei/v1/player*ultiblock_dl=1*",
+      "resourceTypes": ["xmlhttprequest", "other"]
+    }
+  },
+  {
+    "id": 32,
+    "priority": 1000,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "origin", "operation": "remove" },
+        { "header": "cookie", "operation": "remove" },
+        { "header": "referer", "operation": "remove" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||googlevideo.com/videoplayback*c=ANDROID*",
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "music.youtube.com",
+        "m.youtube.com"
+      ]
+    }
+  },
+  {
+    "id": 33,
+    "priority": 1000,
+    "action": {
+      "type": "modifyHeaders",
+      "requestHeaders": [
+        { "header": "origin", "operation": "remove" },
+        { "header": "cookie", "operation": "remove" },
+        { "header": "referer", "operation": "remove" }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||googlevideo.com/videoplayback*c=IOS*",
+      "excludedInitiatorDomains": [
+        "youtube.com",
+        "www.youtube.com",
+        "music.youtube.com",
+        "m.youtube.com"
+      ]
+    }
+  }
+]

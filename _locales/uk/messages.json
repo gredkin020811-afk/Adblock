@@ -1,0 +1,248 @@
+{
+  "extName": {
+    "message": "UltiBlock Pro by Bulki228"
+  },
+  "extDescription": {
+    "message": "Комбайн 5-в-1: Блокувальник реклами, YouTube & Music Premium, Enhancer + YT Tweaks, Smart Dark Reader та пряме завантаження відео/MP3/фото."
+  },
+  "actionTitle": {
+    "message": "UltiBlock Pro 5-in-1"
+  },
+  "contextMenuDownload": {
+    "message": "📥 UltiBlock: Завантажити фото / відео / аудіо напряму"
+  },
+  "globalToggleTitle": {
+    "message": "Глобальне увімкнення/вимкнення"
+  },
+  "langTitle": {
+    "message": "Мова інтерфейсу"
+  },
+  "langAuto": {
+    "message": "Авто"
+  },
+  "statusActive": {
+    "message": "AdBlock + YT Premium + Tweaks + Dark + DL"
+  },
+  "statusGlobalOff": {
+    "message": "Захист глобально вимкнено"
+  },
+  "statusSitePaused": {
+    "message": "Пауза на {domain}"
+  },
+  "tabAdblock": {
+    "message": "🛡️ Адблок & DL"
+  },
+  "tabDark": {
+    "message": "🌙 Dark Reader"
+  },
+  "tabYt": {
+    "message": "▶️ YT + Tweaks"
+  },
+  "currentSite": {
+    "message": "Поточний сайт"
+  },
+  "systemTab": {
+    "message": "Системна вкладка"
+  },
+  "adblockHere": {
+    "message": "Адблок тут"
+  },
+  "blockedOnTab": {
+    "message": "Заблоковано на цій вкладці:"
+  },
+  "statNetwork": {
+    "message": "Мережа і трекери"
+  },
+  "statYoutube": {
+    "message": "YouTube + Інтеграції"
+  },
+  "statDom": {
+    "message": "DOM банери"
+  },
+  "statPopup": {
+    "message": "Попапи / Редиректи"
+  },
+  "dlManagerTitle": {
+    "message": "📥 Менеджер завантажень (Фон)"
+  },
+  "clearBtn": {
+    "message": "Очистити"
+  },
+  "dlEmpty": {
+    "message": "Немає активних завантажень (качає у фоні навіть після закриття)"
+  },
+  "dlCancelTitle": {
+    "message": "Скасувати завантаження"
+  },
+  "dlSpeedLabel": {
+    "message": "⚡ Ліміт швидкості (Анти-лаг):"
+  },
+  "dlSpeedTitle": {
+    "message": "Обмежує швидкість завантаження, щоб Discord і браузер не лагали"
+  },
+  "dlSpeedUnit": {
+    "message": "МБ/с"
+  },
+  "dlSizeUnit": {
+    "message": "МБ"
+  },
+  "dlSpeedMax": {
+    "message": "Макс"
+  },
+  "dlBtnEverywhere": {
+    "message": "📥 Кнопка «Завантажити» всюди (Фото, YouTube і Music)"
+  },
+  "dlBtnOnSite": {
+    "message": "📥 Кнопка «Завантажити» на цьому сайті"
+  },
+  "whitelistTitle": {
+    "message": "Сайти без Адблоку (Білий список)"
+  },
+  "whitelistRestoreTitle": {
+    "message": "Увімкнути Адблок назад на цьому сайті"
+  },
+  "pickerBtn": {
+    "message": "🎯 Вибрати та прибрати елемент на сайті"
+  },
+  "customHiddenCount": {
+    "message": "Приховано вручну на сайті: {count}"
+  },
+  "resetBtn": {
+    "message": "Скинути"
+  },
+  "blacklistTitle": {
+    "message": "Чорний список доменів (DNR)"
+  },
+  "blacklistPlaceholder": {
+    "message": "наприклад: annoying-ads.com"
+  },
+  "blacklistRemoveTitle": {
+    "message": "Видалити з чорного списку"
+  },
+  "cloudSyncBtn": {
+    "message": "☁️ Оновити хмарну базу (+3500 рекламних серверів)"
+  },
+  "cloudSyncLoading": {
+    "message": "⏳ Завантаження та компіляція DNR правил..."
+  },
+  "cloudSyncDone": {
+    "message": "✅ Базу оновлено (+{count} доменів)"
+  },
+  "cloudSyncError": {
+    "message": "⚠️ Помилка завантаження (спробуйте пізніше)"
+  },
+  "cloudMetaUpdated": {
+    "message": "Хмарна база: +{count} доменів (оновл. {date})"
+  },
+  "madeBy": {
+    "message": "Made by Bulki228 • v1.0"
+  },
+  "darkTitle": {
+    "message": "🌙 Розумна темна тема"
+  },
+  "darkStatusActive": {
+    "message": "Активна на сайті (Хоткей: Alt + D)"
+  },
+  "darkStatusGlobalOff": {
+    "message": "Глобально вимкнена (Alt + D)"
+  },
+  "darkStatusSiteOff": {
+    "message": "Вимкнена для {domain}"
+  },
+  "darkStatusSiteForce": {
+    "message": "Примусово увімкнена на {domain}"
+  },
+  "darkStatusNativeSkip": {
+    "message": "Сайт уже має власну темну тему (Авто-пропуск)"
+  },
+  "darkSiteModeLabel": {
+    "message": "Режим на цьому сайті:"
+  },
+  "modeAuto": {
+    "message": "Авто"
+  },
+  "modeOn": {
+    "message": "Увімк"
+  },
+  "modeOff": {
+    "message": "Вимк"
+  },
+  "darkEngineTitle": {
+    "message": "Рушій рендерингу"
+  },
+  "darkEngineSmartSub": {
+    "message": "Без інверсії фото/кольорів"
+  },
+  "darkEngineGpuSub": {
+    "message": "Ультра-швидкий 120 FPS"
+  },
+  "darkPaletteTitle": {
+    "message": "Кольорова палітра"
+  },
+  "darkBrightness": {
+    "message": "☀️ Яскравість"
+  },
+  "darkContrast": {
+    "message": "◐ Контраст"
+  },
+  "darkWarmth": {
+    "message": "🔥 Теплий фільтр (Захист очей)"
+  },
+  "darkAutoSkipNative": {
+    "message": "🧠 Не чіпати сайти зі своєю темною темою"
+  },
+  "ytCardTitle": {
+    "message": "▶️ YouTube & Music Premium + Завантажувач"
+  },
+  "ytOptNonStop": {
+    "message": "🎧 Фоновий режим + Без пауз «Ви ще дивитесь?»"
+  },
+  "ytOptSponsorBlock": {
+    "message": "⏭ Авто-пропуск інтеграцій (SponsorBlock)"
+  },
+  "ytOptAutoMaxQuality": {
+    "message": "💎 Авто-максимальна якість (4K / 1080p60)"
+  },
+  "ytOptReturnDislikes": {
+    "message": "👎 Повернення реальних дизлайків (Dislikes)"
+  },
+  "ytOptShowDownload": {
+    "message": "📥 Показувати кнопку «Завантажити» (YouTube, Music і Фото)"
+  },
+  "ytOptPlayerEnhancements": {
+    "message": "🎛️ Панель: Фільтри, Кінотеатр, 4x, HQ 200%, Скріншот"
+  },
+  "ytOptMusicPremium": {
+    "message": "🎵 YT Music: Режим «Лише аудіо» + HQ Studio Bass"
+  },
+  "ytOptPremiumLogo": {
+    "message": "✨ Значок PREMIUM і приховування промо-вікон"
+  },
+  "ytTweaksTitle": {
+    "message": "🛠 Enhancer for YouTube & YT Tweaks"
+  },
+  "ytOptMiniPlayer": {
+    "message": "📌 Плаваючий міні-плеєр при читанні коментарів"
+  },
+  "ytOptWheelVolume": {
+    "message": "🖱️ Гучність коліщатком миші (права частина відео)"
+  },
+  "ytOptHideEndscreens": {
+    "message": "🚫 Приховати кінцеві заставки відео"
+  },
+  "ytOptHideShorts": {
+    "message": "🚫 Повністю приховати YouTube Shorts"
+  },
+  "ytOptSquareCorners": {
+    "message": "🔲 Квадратні кути плеєра та превʼю"
+  },
+  "ytOptHideSidebar": {
+    "message": "🙈 Приховати бічну колонку рекомендацій"
+  },
+  "ytOptHideComments": {
+    "message": "💬 Приховати блок коментарів"
+  },
+  "ytGridColumnsLabel": {
+    "message": "Відео в ряду на головній:"
+  }
+}

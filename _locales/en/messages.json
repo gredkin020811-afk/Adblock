@@ -1,0 +1,248 @@
+{
+  "extName": {
+    "message": "UltiBlock Pro by Bulki228"
+  },
+  "extDescription": {
+    "message": "All-in-one 5-in-1 browser suite: Ad Blocker, YouTube & Music Premium, Enhancer & YT Tweaks, Smart Dark Reader, and direct Video/MP3/Photo Downloader."
+  },
+  "actionTitle": {
+    "message": "UltiBlock Pro 5-in-1"
+  },
+  "contextMenuDownload": {
+    "message": "📥 UltiBlock: Download photo / video / audio directly"
+  },
+  "globalToggleTitle": {
+    "message": "Global enable / disable"
+  },
+  "langTitle": {
+    "message": "Interface language"
+  },
+  "langAuto": {
+    "message": "Auto"
+  },
+  "statusActive": {
+    "message": "AdBlock + YT Premium + Tweaks + Dark + DL"
+  },
+  "statusGlobalOff": {
+    "message": "Protection globally disabled"
+  },
+  "statusSitePaused": {
+    "message": "Paused on {domain}"
+  },
+  "tabAdblock": {
+    "message": "🛡️ AdBlock & DL"
+  },
+  "tabDark": {
+    "message": "🌙 Dark Reader"
+  },
+  "tabYt": {
+    "message": "▶️ YT + Tweaks"
+  },
+  "currentSite": {
+    "message": "Current site"
+  },
+  "systemTab": {
+    "message": "System tab"
+  },
+  "adblockHere": {
+    "message": "AdBlock here"
+  },
+  "blockedOnTab": {
+    "message": "Blocked on this tab:"
+  },
+  "statNetwork": {
+    "message": "Network & trackers"
+  },
+  "statYoutube": {
+    "message": "YouTube + Sponsors"
+  },
+  "statDom": {
+    "message": "DOM banners"
+  },
+  "statPopup": {
+    "message": "Popups / Redirects"
+  },
+  "dlManagerTitle": {
+    "message": "📥 Download Manager (Background)"
+  },
+  "clearBtn": {
+    "message": "Clear"
+  },
+  "dlEmpty": {
+    "message": "No active downloads (continues in background even if popup closes)"
+  },
+  "dlCancelTitle": {
+    "message": "Cancel download"
+  },
+  "dlSpeedLabel": {
+    "message": "⚡ Speed limit (Anti-lag):"
+  },
+  "dlSpeedTitle": {
+    "message": "Limits download speed so Discord and browser stay smooth"
+  },
+  "dlSpeedUnit": {
+    "message": "MB/s"
+  },
+  "dlSizeUnit": {
+    "message": "MB"
+  },
+  "dlSpeedMax": {
+    "message": "Max"
+  },
+  "dlBtnEverywhere": {
+    "message": "📥 Show \"Download\" button everywhere (Photos, YouTube & Music)"
+  },
+  "dlBtnOnSite": {
+    "message": "📥 Show \"Download\" button on this site"
+  },
+  "whitelistTitle": {
+    "message": "Sites where AdBlock is disabled (Whitelist)"
+  },
+  "whitelistRestoreTitle": {
+    "message": "Re-enable AdBlock on this site"
+  },
+  "pickerBtn": {
+    "message": "🎯 Pick & remove element on page"
+  },
+  "customHiddenCount": {
+    "message": "Hidden manually on this site: {count}"
+  },
+  "resetBtn": {
+    "message": "Reset"
+  },
+  "blacklistTitle": {
+    "message": "Domain Blacklist (DNR)"
+  },
+  "blacklistPlaceholder": {
+    "message": "e.g. annoying-ads.com"
+  },
+  "blacklistRemoveTitle": {
+    "message": "Remove from blacklist"
+  },
+  "cloudSyncBtn": {
+    "message": "☁️ Update cloud filter list (+3500 ad servers)"
+  },
+  "cloudSyncLoading": {
+    "message": "⏳ Downloading & compiling DNR rules..."
+  },
+  "cloudSyncDone": {
+    "message": "✅ Updated (+{count} domains)"
+  },
+  "cloudSyncError": {
+    "message": "⚠️ Update failed (try again later)"
+  },
+  "cloudMetaUpdated": {
+    "message": "Cloud DB: +{count} domains (upd. {date})"
+  },
+  "madeBy": {
+    "message": "Made by Bulki228 • v1.0"
+  },
+  "darkTitle": {
+    "message": "🌙 Smart Dark Theme"
+  },
+  "darkStatusActive": {
+    "message": "Active on site (Hotkey: Alt + D)"
+  },
+  "darkStatusGlobalOff": {
+    "message": "Globally disabled (Alt + D)"
+  },
+  "darkStatusSiteOff": {
+    "message": "Disabled for {domain}"
+  },
+  "darkStatusSiteForce": {
+    "message": "Force enabled on {domain}"
+  },
+  "darkStatusNativeSkip": {
+    "message": "Site already has native dark theme (Auto-skip)"
+  },
+  "darkSiteModeLabel": {
+    "message": "Mode on this site:"
+  },
+  "modeAuto": {
+    "message": "Auto"
+  },
+  "modeOn": {
+    "message": "On"
+  },
+  "modeOff": {
+    "message": "Off"
+  },
+  "darkEngineTitle": {
+    "message": "Rendering engine"
+  },
+  "darkEngineSmartSub": {
+    "message": "Preserves photos & colors"
+  },
+  "darkEngineGpuSub": {
+    "message": "Ultra-fast 120 FPS"
+  },
+  "darkPaletteTitle": {
+    "message": "Color palette"
+  },
+  "darkBrightness": {
+    "message": "☀️ Brightness"
+  },
+  "darkContrast": {
+    "message": "◐ Contrast"
+  },
+  "darkWarmth": {
+    "message": "🔥 Warm filter (Eye care)"
+  },
+  "darkAutoSkipNative": {
+    "message": "🧠 Skip sites with native dark theme"
+  },
+  "ytCardTitle": {
+    "message": "▶️ YouTube & Music Premium + Downloader"
+  },
+  "ytOptNonStop": {
+    "message": "🎧 Background play + No \"Are you still watching?\" pauses"
+  },
+  "ytOptSponsorBlock": {
+    "message": "⏭ Auto-skip sponsors & intros (SponsorBlock)"
+  },
+  "ytOptAutoMaxQuality": {
+    "message": "💎 Auto max video quality (4K / 1080p60)"
+  },
+  "ytOptReturnDislikes": {
+    "message": "👎 Return real dislike counts"
+  },
+  "ytOptShowDownload": {
+    "message": "📥 Show \"Download\" button (YouTube, Music & Photos)"
+  },
+  "ytOptPlayerEnhancements": {
+    "message": "🎛️ Toolbar: Filters, Cinema, 4x, HQ 200%, Screenshot"
+  },
+  "ytOptMusicPremium": {
+    "message": "🎵 YT Music: \"Audio-only\" mode + HQ Studio Bass"
+  },
+  "ytOptPremiumLogo": {
+    "message": "✨ PREMIUM badge & hide promo popups"
+  },
+  "ytTweaksTitle": {
+    "message": "🛠 Enhancer for YouTube & YT Tweaks"
+  },
+  "ytOptMiniPlayer": {
+    "message": "📌 Floating mini-player when scrolling comments"
+  },
+  "ytOptWheelVolume": {
+    "message": "🖱️ Mouse wheel volume (right side of player)"
+  },
+  "ytOptHideEndscreens": {
+    "message": "🚫 Hide end-screen cards"
+  },
+  "ytOptHideShorts": {
+    "message": "🚫 Hide YouTube Shorts completely"
+  },
+  "ytOptSquareCorners": {
+    "message": "🔲 Square player & thumbnail corners"
+  },
+  "ytOptHideSidebar": {
+    "message": "🙈 Hide right recommendations sidebar"
+  },
+  "ytOptHideComments": {
+    "message": "💬 Hide comments section"
+  },
+  "ytGridColumnsLabel": {
+    "message": "Videos per row on Home:"
+  }
+}
